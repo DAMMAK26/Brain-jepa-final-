@@ -1,0 +1,103 @@
+!!python/object:__main__.Config
+accum_iter: 1
+add_w: origin
+attn_mode: normal
+batch_size: 20
+blr: 0.01
+clip_grad: null
+cls_token: false
+config: configs.yaml
+crop_size: !!python/tuple
+- 450
+- 160
+data:
+  batch_size: 16
+  crop_size:
+  - 450
+  - 160
+  gradient_csv_path: E:\recherche\brain\brain-jepa\Brain-JEPA-main\Brain-JEPA-main\data\gradient_mapping_450.csv
+  num_workers: 8
+  pin_mem: true
+data_make_fn: hca_sex
+device: cpu
+downsample: false
+downstream_task: lin_probe
+drop_path: 0.1
+epochs: 20
+eval: false
+finetune: downstream_tasks\jepa-ep300.pth.tar
+global_pool: true
+gradient_checkpointing: false
+label_normalization: false
+layer_decay: 0.75
+load_epoch: '300'
+load_path: downstream_tasks
+local_rank: -1
+log_dir: hca_sex\lin_probe_classification\jepa-ep300_2024-11-23_12-40-46\ft_log
+logging:
+  folder: logs/ukb_vitb_ep300
+  write_tag: jepa
+lr: null
+mask:
+  allow_overlap: false
+  enc_mask_scale:
+  - 0.84
+  - 1
+  min_keep: 4
+  patch_size: 16
+  pred_mask_R_roi_scale:
+  - 0.15
+  - 0.3
+  pred_mask_R_scale:
+  - 0.45
+  - 0.6
+  pred_mask_T_roi_scale:
+  - 0.2
+  - 0.6
+  pred_mask_T_scale:
+  - 0.0
+  - 0.4
+meta:
+  accumulation_steps: 8
+  add_w: mapping
+  attn_mode: flash_attn
+  downsample: true
+  load_checkpoint: false
+  mask_mode: roi_mask
+  model_name: vit_base
+  pred_depth: 6
+  pred_emb_dim: 384
+  read_checkpoint: null
+  use_bfloat16: true
+  use_standatdization: false
+min_lr: 1.0e-06
+model_name: vit_base
+nb_classes: 2
+num_seed: 5
+num_workers: 8
+optimization:
+  ema:
+  - 0.996
+  - 1.0
+  epochs: 300
+  final_lr: 1.0e-06
+  final_weight_decay: 0.4
+  ipe_scale: 1.0
+  lr: 0.001
+  start_lr: 5.0e-05
+  warmup: 40
+  weight_decay: 0.04
+output_dir: hca_sex\lin_probe_classification\jepa-ep300_2024-11-23_12-40-46\ft_output
+output_root: ''
+patch_size: 16
+pin_mem: false
+pred_depth: 12
+pred_emb_dim: 384
+resume: ''
+seed: 0
+smoothing: 0.0
+start_epoch: 0
+task: classification
+use_normalization: false
+warmup_epochs: 0
+world_size: 1

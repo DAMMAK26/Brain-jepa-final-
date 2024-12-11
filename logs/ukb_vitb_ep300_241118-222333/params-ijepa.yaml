@@ -1,0 +1,70 @@
+accum_iter: 1
+clip_grad: null
+cls_token: false
+data:
+  batch_size: 16
+  crop_size:
+  - 450
+  - 160
+  gradient_csv_path: path/to/gradient_mapping_450.csv
+  num_workers: 8
+  pin_mem: true
+device: cuda
+drop_path: 0.1
+finetune: ''
+global_pool: true
+layer_decay: 0.75
+local_rank: -1
+logging:
+  folder: logs/ukb_vitb_ep300
+  write_tag: jepa
+mask:
+  allow_overlap: false
+  enc_mask_scale:
+  - 0.84
+  - 1
+  min_keep: 4
+  patch_size: 16
+  pred_mask_R_roi_scale:
+  - 0.15
+  - 0.3
+  pred_mask_R_scale:
+  - 0.45
+  - 0.6
+  pred_mask_T_roi_scale:
+  - 0.2
+  - 0.6
+  pred_mask_T_scale:
+  - 0.0
+  - 0.4
+meta:
+  accumulation_steps: 8
+  add_w: mapping
+  attn_mode: flash_attn
+  downsample: true
+  load_checkpoint: false
+  mask_mode: roi_mask
+  model_name: vit_base
+  pred_depth: 6
+  pred_emb_dim: 384
+  read_checkpoint: null
+  use_bfloat16: true
+  use_standatdization: false
+no_pin_mem: false
+optimization:
+  ema:
+  - 0.996
+  - 1.0
+  epochs: 300
+  final_lr: 1.0e-06
+  final_weight_decay: 0.4
+  ipe_scale: 1.0
+  lr: 0.001
+  start_lr: 5.0e-05
+  warmup: 40
+  weight_decay: 0.04
+resume: ''
+seed: 0
+start_epoch: 0
+warmup_epochs: 0
+world_size: 1
