@@ -5,7 +5,7 @@
 # --------------------------------------------------------
 
 import sys
-sys.path.append('E:/recherche/brain/brain-jepa/Brain-JEPA-main/Brain-JEPA-main')
+sys.path.append('E:/recherche/brain/brain-jepa/Brain-JEPA-final/Brain-JEPA-main')
 import datetime
 import json
 import numpy as np
@@ -51,7 +51,7 @@ def main(args):
         log_writer = SummaryWriter(log_dir=args.log_dir)
     else:
         log_writer = None
-    """
+    
     if args.data_make_fn == 'hca_sex':
         if args.data_make_fn == 'hca_sex':
             data_fn = make_hca_sex
@@ -62,11 +62,8 @@ def main(args):
             batch_size=args.batch_size,
             pin_mem=args.pin_mem,
             num_workers=args.num_workers,
-            world_size=1,
-            rank=0,
             drop_last=False,
-            data_split=[0.6, 0.2, 0.2],
-            processed_dir=f'path/to/data',
+            #processed_dir=f'path/to/data',
             use_normalization=args.use_normalization,
             label_normalization=args.label_normalization,
             downsample=args.downsample
@@ -78,7 +75,11 @@ def main(args):
     print(f'task: {args.data_make_fn}')
     print(f'len train dataset: {len(train_dataset)}')
     print(f'len validation dataset: {len(valid_dataset)}')
-    print(f'len test dataset: {len(test_dataset)}')"""
+    print(f'len test dataset: {len(test_dataset)}')
+
+
+
+
     model = VisionTransformer(
         args,
         model_name=args.model_name,
@@ -165,14 +166,14 @@ def main(args):
     print("criterion = %s" % str(criterion))
 
 
-    breakpoint()
+    #breakpoint()
     misc.load_model(args=args, model_without_ddp=model_without_ddp, optimizer=optimizer, loss_scaler=loss_scaler)
 
     random_tensor = torch.randn(2, 1, 450,160)  # Taille adaptée à ton modèle
     
     # Passage avant (forward pass)
-    output = model(random_tensor)
-    print('the out put of the model is: {}'.format(output))
+    #output = model(random_tensor)
+    #print('the out put of the model is: {}'.format(output))
     if args.eval:
         test_stats = evaluate(args, data_loader_val, model, device)
         print(f"Accuracy of the network on the {len(valid_dataset)} test images: {test_stats['acc1']:.1f}%")

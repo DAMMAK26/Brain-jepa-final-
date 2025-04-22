@@ -112,7 +112,7 @@ def make_hca_sex(
     pin_mem=True,
     num_workers=8,
     drop_last=True,
-    processed_dir='data/processed/hca_lifespan',
+    processed_dir='data\\processed\\hca_lifespan',
     use_normalization=False,
     label_normalization=False,
     downsample=False,

@@ -85,7 +85,7 @@ if __name__ == "__main__":
         use_normalization = True
         label_normalization = False
         downsample = None
-        finetune = "E:/recherche/brain/brain-jepa/Brain-JEPA-main/Brain-JEPA-main/checkpoint.pth"
+        finetune = "E:/recherche/brain/brain-jepa/Brain-JEPA-final/Brain-JEPA-main/checkpoint.pth"
         model_name = "vit_base"
         attn_mode = "self"
         nb_classes = 2
