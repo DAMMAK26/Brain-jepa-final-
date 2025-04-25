@@ -1,0 +1,621 @@
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:50: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 0/14]  eta: 0:14:05  lr: 0.050001  loss: 0.6770 (0.6770)  time: 60.4095  data: 0.0011
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 1/14]  eta: 0:13:00  lr: 0.049377  loss: 0.6770 (0.6993)  time: 60.0292  data: 0.0005
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 2/14]  eta: 0:11:56  lr: 0.048754  loss: 0.6770 (0.6647)  time: 59.7014  data: 0.0004
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 3/14]  eta: 0:10:53  lr: 0.048131  loss: 0.6354 (0.6574)  time: 59.3989  data: 0.0003
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 4/14]  eta: 0:09:52  lr: 0.047508  loss: 0.6770 (0.6652)  time: 59.2897  data: 0.0018
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 5/14]  eta: 0:08:52  lr: 0.046886  loss: 0.6770 (0.6733)  time: 59.1985  data: 0.0015
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 6/14]  eta: 0:07:54  lr: 0.046264  loss: 0.6770 (0.6723)  time: 59.3165  data: 0.0013
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 7/14]  eta: 0:06:56  lr: 0.045643  loss: 0.6669 (0.6670)  time: 59.4471  data: 0.0011
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 8/14]  eta: 0:05:57  lr: 0.045022  loss: 0.6770 (0.6814)  time: 59.5102  data: 0.0010
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [ 9/14]  eta: 0:04:56  lr: 0.044402  loss: 0.6669 (0.6773)  time: 59.3950  data: 0.0009
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [10/14]  eta: 0:03:57  lr: 0.043783  loss: 0.6770 (0.6856)  time: 59.4700  data: 0.0014
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [11/14]  eta: 0:02:58  lr: 0.043165  loss: 0.6679 (0.6841)  time: 59.4339  data: 0.0013
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [12/14]  eta: 0:01:58  lr: 0.042548  loss: 0.6770 (0.6865)  time: 59.4509  data: 0.0012
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [9]  [13/14]  eta: 0:00:57  lr: 0.041933  loss: 0.6679 (0.6829)  time: 57.2352  data: 0.0021
+Epoch: [9] Total time: 0:13:21 (57.2356 s / it)
+Averaged stats: lr: 0.041933  loss: 0.6679 (0.6829)
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:59  loss: 0.7635 (0.7635)  acc1: 40.0000 (40.0000)  time: 59.8143  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.7463 (0.7245)  acc1: 50.0000 (48.8889)  time: 53.1863  data: 0.0000
+Test: Total time: 0:04:25 (53.1863 s / it)
+ For the evaluation of the model, the prediction are:  [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0]
+ For the evaluation of the model, the ground truth are:  [1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1
+ 1 0 0 1 0 1 1 0]
+* Acc@1 48.889 loss 0.725 F1 0.080
+Accuracy of the network on the 45 validation samples: 48.9%
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:05:00  loss: 0.6178 (0.6178)  acc1: 80.0000 (80.0000)  time: 60.0136  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.6824 (0.6805)  acc1: 70.0000 (66.6667)  time: 53.0259  data: 0.0025
+Test: Total time: 0:04:25 (53.0259 s / it)
+ For the evaluation of the model, the prediction are:  [0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0
+ 0 1 0 1 0 1 0 1]
+ For the evaluation of the model, the ground truth are:  [0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1
+ 0 1 1 1 1 1 1 1]
+* Acc@1 66.667 loss 0.680 F1 0.483
+Accuracy of the network on the 45 test samples: 66.7%
+log_dir: lin_probe\hca_sex\jepa-ep300\ft_log
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:50: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 0/14]  eta: 0:13:34  lr: 0.041318  loss: 0.6760 (0.6760)  time: 58.2061  data: 0.0097
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 1/14]  eta: 0:12:38  lr: 0.040705  loss: 0.6760 (0.6974)  time: 58.3831  data: 0.0093
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 2/14]  eta: 0:11:46  lr: 0.040093  loss: 0.6760 (0.6634)  time: 58.8560  data: 0.0090
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 3/14]  eta: 0:10:51  lr: 0.039483  loss: 0.6319 (0.6555)  time: 59.2318  data: 0.0068
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 4/14]  eta: 0:09:53  lr: 0.038875  loss: 0.6760 (0.6636)  time: 59.3593  data: 0.0054
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 5/14]  eta: 0:08:54  lr: 0.038268  loss: 0.6760 (0.6713)  time: 59.3419  data: 0.0045
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 6/14]  eta: 0:07:54  lr: 0.037663  loss: 0.6760 (0.6707)  time: 59.3433  data: 0.0052
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 7/14]  eta: 0:06:55  lr: 0.037060  loss: 0.6669 (0.6652)  time: 59.3079  data: 0.0046
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 8/14]  eta: 0:05:55  lr: 0.036459  loss: 0.6760 (0.6796)  time: 59.2889  data: 0.0049
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [ 9/14]  eta: 0:04:55  lr: 0.035860  loss: 0.6669 (0.6759)  time: 59.1946  data: 0.0044
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [10/14]  eta: 0:03:56  lr: 0.035263  loss: 0.6760 (0.6841)  time: 59.1971  data: 0.0040
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [11/14]  eta: 0:02:57  lr: 0.034668  loss: 0.6669 (0.6827)  time: 59.0850  data: 0.0037
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [12/14]  eta: 0:01:58  lr: 0.034076  loss: 0.6760 (0.6850)  time: 59.1197  data: 0.0034
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [10]  [13/14]  eta: 0:00:56  lr: 0.033487  loss: 0.6669 (0.6814)  time: 56.9525  data: 0.0037
+Epoch: [10] Total time: 0:13:17 (56.9525 s / it)
+Averaged stats: lr: 0.033487  loss: 0.6669 (0.6814)
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:55  loss: 0.7605 (0.7605)  acc1: 40.0000 (40.0000)  time: 59.0710  data: 0.0148
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:52  loss: 0.7430 (0.7222)  acc1: 50.0000 (48.8889)  time: 52.6733  data: 0.0030
+Test: Total time: 0:04:23 (52.6733 s / it)
+ For the evaluation of the model, the prediction are:  [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0]
+ For the evaluation of the model, the ground truth are:  [1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1
+ 1 0 0 1 0 1 1 0]
+* Acc@1 48.889 loss 0.722 F1 0.080
+Accuracy of the network on the 45 validation samples: 48.9%
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:53  loss: 0.6184 (0.6184)  acc1: 80.0000 (80.0000)  time: 58.7255  data: 0.0013
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:52  loss: 0.6829 (0.6803)  acc1: 70.0000 (66.6667)  time: 52.7363  data: 0.0003
+Test: Total time: 0:04:23 (52.7364 s / it)
+ For the evaluation of the model, the prediction are:  [0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0
+ 0 1 0 1 0 1 0 1]
+ For the evaluation of the model, the ground truth are:  [0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1
+ 0 1 1 1 1 1 1 1]
+* Acc@1 66.667 loss 0.680 F1 0.483
+Accuracy of the network on the 45 test samples: 66.7%
+log_dir: lin_probe\hca_sex\jepa-ep300\ft_log
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:50: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 0/14]  eta: 0:13:51  lr: 0.032900  loss: 0.6751 (0.6751)  time: 59.4082  data: 0.0126
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 1/14]  eta: 0:12:45  lr: 0.032315  loss: 0.6751 (0.6960)  time: 58.8989  data: 0.0063
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 2/14]  eta: 0:11:46  lr: 0.031734  loss: 0.6751 (0.6623)  time: 58.9022  data: 0.0042
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 3/14]  eta: 0:10:46  lr: 0.031155  loss: 0.6291 (0.6540)  time: 58.7833  data: 0.0053
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 4/14]  eta: 0:09:53  lr: 0.030579  loss: 0.6751 (0.6623)  time: 59.3361  data: 0.0057
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 5/14]  eta: 0:08:54  lr: 0.030006  loss: 0.6751 (0.6698)  time: 59.3722  data: 0.0054
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 6/14]  eta: 0:07:56  lr: 0.029436  loss: 0.6751 (0.6694)  time: 59.5530  data: 0.0049
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 7/14]  eta: 0:06:56  lr: 0.028870  loss: 0.6669 (0.6637)  time: 59.4309  data: 0.0043
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 8/14]  eta: 0:05:56  lr: 0.028307  loss: 0.6751 (0.6781)  time: 59.4783  data: 0.0056
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [ 9/14]  eta: 0:04:56  lr: 0.027747  loss: 0.6669 (0.6748)  time: 59.3759  data: 0.0050
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [10/14]  eta: 0:03:58  lr: 0.027190  loss: 0.6751 (0.6830)  time: 59.5075  data: 0.0053
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [11/14]  eta: 0:02:58  lr: 0.026637  loss: 0.6669 (0.6816)  time: 59.3888  data: 0.0048
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [12/14]  eta: 0:01:58  lr: 0.026088  loss: 0.6751 (0.6839)  time: 59.4485  data: 0.0045
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [11]  [13/14]  eta: 0:00:57  lr: 0.025542  loss: 0.6669 (0.6801)  time: 57.2659  data: 0.0053
+Epoch: [11] Total time: 0:13:21 (57.2663 s / it)
+Averaged stats: lr: 0.025542  loss: 0.6669 (0.6801)
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:05:02  loss: 0.7581 (0.7581)  acc1: 40.0000 (40.0000)  time: 60.5968  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.7405 (0.7203)  acc1: 50.0000 (48.8889)  time: 53.2598  data: 0.0000
+Test: Total time: 0:04:26 (53.2598 s / it)
+ For the evaluation of the model, the prediction are:  [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0]
+ For the evaluation of the model, the ground truth are:  [1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1
+ 1 0 0 1 0 1 1 0]
+* Acc@1 48.889 loss 0.720 F1 0.080
+Accuracy of the network on the 45 validation samples: 48.9%
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:05:00  loss: 0.6191 (0.6191)  acc1: 80.0000 (80.0000)  time: 60.1124  data: 0.0008
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.6835 (0.6802)  acc1: 60.0000 (64.4444)  time: 53.2026  data: 0.0002
+Test: Total time: 0:04:26 (53.2026 s / it)
+ For the evaluation of the model, the prediction are:  [0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0
+ 0 1 0 1 0 1 0 1]
+ For the evaluation of the model, the ground truth are:  [0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1
+ 0 1 1 1 1 1 1 1]
+* Acc@1 64.444 loss 0.680 F1 0.467
+Accuracy of the network on the 45 test samples: 64.4%
+log_dir: lin_probe\hca_sex\jepa-ep300\ft_log
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:50: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 0/14]  eta: 0:13:46  lr: 0.025001  loss: 0.6744 (0.6744)  time: 59.0104  data: 0.0169
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 1/14]  eta: 0:12:43  lr: 0.024463  loss: 0.6744 (0.6948)  time: 58.7494  data: 0.0084
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 2/14]  eta: 0:11:49  lr: 0.023929  loss: 0.6744 (0.6614)  time: 59.1564  data: 0.0056
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 3/14]  eta: 0:10:47  lr: 0.023399  loss: 0.6268 (0.6528)  time: 58.8925  data: 0.0075
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 4/14]  eta: 0:09:48  lr: 0.022873  loss: 0.6744 (0.6613)  time: 58.8651  data: 0.0060
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 5/14]  eta: 0:08:48  lr: 0.022352  loss: 0.6744 (0.6686)  time: 58.7467  data: 0.0050
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 6/14]  eta: 0:07:49  lr: 0.021835  loss: 0.6744 (0.6684)  time: 58.7328  data: 0.0043
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 7/14]  eta: 0:06:50  lr: 0.021322  loss: 0.6668 (0.6625)  time: 58.6358  data: 0.0038
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 8/14]  eta: 0:05:52  lr: 0.020814  loss: 0.6744 (0.6769)  time: 58.7094  data: 0.0033
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [ 9/14]  eta: 0:04:53  lr: 0.020310  loss: 0.6668 (0.6738)  time: 58.6945  data: 0.0030
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [10/14]  eta: 0:03:55  lr: 0.019811  loss: 0.6744 (0.6821)  time: 58.7608  data: 0.0027
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [11/14]  eta: 0:02:56  lr: 0.019316  loss: 0.6668 (0.6807)  time: 58.7292  data: 0.0025
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [12/14]  eta: 0:01:57  lr: 0.018826  loss: 0.6744 (0.6830)  time: 58.8286  data: 0.0025
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [12]  [13/14]  eta: 0:00:56  lr: 0.018341  loss: 0.6668 (0.6792)  time: 56.6391  data: 0.0023
+Epoch: [12] Total time: 0:13:12 (56.6405 s / it)
+Averaged stats: lr: 0.018341  loss: 0.6668 (0.6792)
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:55  loss: 0.7563 (0.7563)  acc1: 40.0000 (40.0000)  time: 59.0739  data: 0.0157
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:52  loss: 0.7387 (0.7190)  acc1: 50.0000 (48.8889)  time: 52.6842  data: 0.0046
+Test: Total time: 0:04:23 (52.6842 s / it)
+ For the evaluation of the model, the prediction are:  [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0]
+ For the evaluation of the model, the ground truth are:  [1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1
+ 1 0 0 1 0 1 1 0]
+* Acc@1 48.889 loss 0.719 F1 0.080
+Accuracy of the network on the 45 validation samples: 48.9%
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:58  loss: 0.6196 (0.6196)  acc1: 80.0000 (80.0000)  time: 59.7512  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.6840 (0.6801)  acc1: 60.0000 (60.0000)  time: 53.5078  data: 0.0010
+Test: Total time: 0:04:27 (53.5078 s / it)
+ For the evaluation of the model, the prediction are:  [0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 1 0 0 0 0
+ 0 1 0 1 0 1 0 1]
+ For the evaluation of the model, the ground truth are:  [0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1
+ 0 1 1 1 1 1 1 1]
+* Acc@1 60.000 loss 0.680 F1 0.438
+Accuracy of the network on the 45 test samples: 60.0%
+log_dir: lin_probe\hca_sex\jepa-ep300\ft_log
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:50: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 0/14]  eta: 0:14:05  lr: 0.017861  loss: 0.6739 (0.6739)  time: 60.4054  data: 0.0167
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 1/14]  eta: 0:12:54  lr: 0.017386  loss: 0.6739 (0.6939)  time: 59.5847  data: 0.0084
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 2/14]  eta: 0:11:52  lr: 0.016917  loss: 0.6739 (0.6608)  time: 59.3506  data: 0.0056
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 3/14]  eta: 0:10:49  lr: 0.016452  loss: 0.6251 (0.6518)  time: 59.0108  data: 0.0042
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 4/14]  eta: 0:09:53  lr: 0.015992  loss: 0.6739 (0.6605)  time: 59.3896  data: 0.0033
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 5/14]  eta: 0:08:56  lr: 0.015538  loss: 0.6739 (0.6677)  time: 59.5872  data: 0.0044
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 6/14]  eta: 0:07:56  lr: 0.015089  loss: 0.6739 (0.6676)  time: 59.5497  data: 0.0038
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 7/14]  eta: 0:06:59  lr: 0.014646  loss: 0.6667 (0.6616)  time: 59.8626  data: 0.0033
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 8/14]  eta: 0:05:59  lr: 0.014208  loss: 0.6739 (0.6761)  time: 59.8372  data: 0.0045
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [ 9/14]  eta: 0:04:58  lr: 0.013775  loss: 0.6667 (0.6731)  time: 59.6959  data: 0.0040
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [10/14]  eta: 0:03:58  lr: 0.013348  loss: 0.6739 (0.6813)  time: 59.6617  data: 0.0037
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [11/14]  eta: 0:02:59  lr: 0.012927  loss: 0.6667 (0.6800)  time: 59.7831  data: 0.0034
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [12/14]  eta: 0:01:59  lr: 0.012512  loss: 0.6739 (0.6823)  time: 59.7349  data: 0.0034
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [13]  [13/14]  eta: 0:00:57  lr: 0.012102  loss: 0.6667 (0.6785)  time: 57.5290  data: 0.0032
+Epoch: [13] Total time: 0:13:25 (57.5290 s / it)
+Averaged stats: lr: 0.012102  loss: 0.6667 (0.6785)
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:54  loss: 0.7549 (0.7549)  acc1: 40.0000 (40.0000)  time: 58.9168  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.7374 (0.7180)  acc1: 50.0000 (48.8889)  time: 53.0124  data: 0.0032
+Test: Total time: 0:04:25 (53.0124 s / it)
+ For the evaluation of the model, the prediction are:  [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0]
+ For the evaluation of the model, the ground truth are:  [1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1
+ 1 0 0 1 0 1 1 0]
+* Acc@1 48.889 loss 0.718 F1 0.080
+Accuracy of the network on the 45 validation samples: 48.9%
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:54  loss: 0.6202 (0.6202)  acc1: 80.0000 (80.0000)  time: 58.8571  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.6844 (0.6801)  acc1: 60.0000 (60.0000)  time: 53.1221  data: 0.0000
+Test: Total time: 0:04:25 (53.1221 s / it)
+ For the evaluation of the model, the prediction are:  [0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 1 0 0 0 0
+ 0 1 0 1 0 1 0 1]
+ For the evaluation of the model, the ground truth are:  [0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1
+ 0 1 1 1 1 1 1 1]
+* Acc@1 60.000 loss 0.680 F1 0.438
+Accuracy of the network on the 45 test samples: 60.0%
+log_dir: lin_probe\hca_sex\jepa-ep300\ft_log
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:50: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 0/14]  eta: 0:13:51  lr: 0.011699  loss: 0.6736 (0.6736)  time: 59.3601  data: 0.0106
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 1/14]  eta: 0:12:44  lr: 0.011301  loss: 0.6736 (0.6933)  time: 58.7928  data: 0.0053
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 2/14]  eta: 0:11:47  lr: 0.010909  loss: 0.6736 (0.6603)  time: 58.9201  data: 0.0035
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 3/14]  eta: 0:10:44  lr: 0.010524  loss: 0.6238 (0.6512)  time: 58.6281  data: 0.0026
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 4/14]  eta: 0:09:49  lr: 0.010144  loss: 0.6736 (0.6599)  time: 58.9504  data: 0.0021
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 5/14]  eta: 0:08:50  lr: 0.009771  loss: 0.6736 (0.6671)  time: 58.9177  data: 0.0018
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 6/14]  eta: 0:07:51  lr: 0.009404  loss: 0.6736 (0.6670)  time: 58.9383  data: 0.0015
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 7/14]  eta: 0:06:52  lr: 0.009043  loss: 0.6667 (0.6610)  time: 58.8925  data: 0.0024
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 8/14]  eta: 0:05:54  lr: 0.008689  loss: 0.6736 (0.6754)  time: 59.0270  data: 0.0022
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [ 9/14]  eta: 0:04:56  lr: 0.008341  loss: 0.6667 (0.6726)  time: 59.2532  data: 0.0031
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [10/14]  eta: 0:03:57  lr: 0.008000  loss: 0.6736 (0.6808)  time: 59.3421  data: 0.0028
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [11/14]  eta: 0:02:57  lr: 0.007665  loss: 0.6667 (0.6795)  time: 59.2938  data: 0.0033
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [12/14]  eta: 0:01:58  lr: 0.007336  loss: 0.6736 (0.6818)  time: 59.2793  data: 0.0030
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [14]  [13/14]  eta: 0:00:57  lr: 0.007015  loss: 0.6667 (0.6780)  time: 57.1170  data: 0.0028
+Epoch: [14] Total time: 0:13:19 (57.1173 s / it)
+Averaged stats: lr: 0.007015  loss: 0.6667 (0.6780)
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:05:02  loss: 0.7540 (0.7540)  acc1: 40.0000 (40.0000)  time: 60.4280  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.7366 (0.7173)  acc1: 50.0000 (48.8889)  time: 53.5942  data: 0.0000
+Test: Total time: 0:04:27 (53.5942 s / it)
+ For the evaluation of the model, the prediction are:  [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0]
+ For the evaluation of the model, the ground truth are:  [1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1
+ 1 0 0 1 0 1 1 0]
+* Acc@1 48.889 loss 0.717 F1 0.080
+Accuracy of the network on the 45 validation samples: 48.9%
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:59  loss: 0.6206 (0.6206)  acc1: 80.0000 (80.0000)  time: 59.8437  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.6847 (0.6800)  acc1: 60.0000 (60.0000)  time: 53.1791  data: 0.0011
+Test: Total time: 0:04:25 (53.1791 s / it)
+ For the evaluation of the model, the prediction are:  [0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 1 0 0 0 0
+ 0 1 0 1 0 1 0 1]
+ For the evaluation of the model, the ground truth are:  [0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1
+ 0 1 1 1 1 1 1 1]
+* Acc@1 60.000 loss 0.680 F1 0.438
+Accuracy of the network on the 45 test samples: 60.0%
+log_dir: lin_probe\hca_sex\jepa-ep300\ft_log
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:50: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 0/14]  eta: 0:13:59  lr: 0.006700  loss: 0.6733 (0.6733)  time: 59.9927  data: 0.0125
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 1/14]  eta: 0:12:57  lr: 0.006391  loss: 0.6733 (0.6929)  time: 59.7703  data: 0.0100
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 2/14]  eta: 0:11:55  lr: 0.006090  loss: 0.6733 (0.6600)  time: 59.6056  data: 0.0066
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 3/14]  eta: 0:10:52  lr: 0.005795  loss: 0.6229 (0.6507)  time: 59.3365  data: 0.0089
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 4/14]  eta: 0:09:54  lr: 0.005507  loss: 0.6733 (0.6596)  time: 59.4898  data: 0.0071
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 5/14]  eta: 0:08:59  lr: 0.005226  loss: 0.6733 (0.6667)  time: 59.9613  data: 0.0062
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 6/14]  eta: 0:07:59  lr: 0.004953  loss: 0.6733 (0.6667)  time: 59.9652  data: 0.0054
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 7/14]  eta: 0:06:58  lr: 0.004686  loss: 0.6666 (0.6605)  time: 59.8513  data: 0.0047
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 8/14]  eta: 0:05:59  lr: 0.004426  loss: 0.6733 (0.6750)  time: 59.8636  data: 0.0042
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [ 9/14]  eta: 0:04:58  lr: 0.004173  loss: 0.6666 (0.6723)  time: 59.7446  data: 0.0037
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [10/14]  eta: 0:03:58  lr: 0.003927  loss: 0.6733 (0.6805)  time: 59.7200  data: 0.0034
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [11/14]  eta: 0:02:58  lr: 0.003689  loss: 0.6666 (0.6792)  time: 59.5738  data: 0.0038
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [12/14]  eta: 0:01:59  lr: 0.003457  loss: 0.6733 (0.6815)  time: 59.6166  data: 0.0035
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [15]  [13/14]  eta: 0:00:57  lr: 0.003233  loss: 0.6666 (0.6776)  time: 57.3908  data: 0.0033
+Epoch: [15] Total time: 0:13:23 (57.3913 s / it)
+Averaged stats: lr: 0.003233  loss: 0.6666 (0.6776)
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:05:03  loss: 0.7535 (0.7535)  acc1: 40.0000 (40.0000)  time: 60.6216  data: 0.0075
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.7361 (0.7170)  acc1: 50.0000 (48.8889)  time: 53.6118  data: 0.0015
+Test: Total time: 0:04:28 (53.6118 s / it)
+ For the evaluation of the model, the prediction are:  [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0]
+ For the evaluation of the model, the ground truth are:  [1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1
+ 1 0 0 1 0 1 1 0]
+* Acc@1 48.889 loss 0.717 F1 0.080
+Accuracy of the network on the 45 validation samples: 48.9%
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:55  loss: 0.6210 (0.6210)  acc1: 80.0000 (80.0000)  time: 59.1297  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:54  loss: 0.6848 (0.6799)  acc1: 60.0000 (60.0000)  time: 54.3078  data: 0.0000
+Test: Total time: 0:04:31 (54.3078 s / it)
+ For the evaluation of the model, the prediction are:  [0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 1 0 0 0 0
+ 0 1 0 1 0 1 0 1]
+ For the evaluation of the model, the ground truth are:  [0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1
+ 0 1 1 1 1 1 1 1]
+* Acc@1 60.000 loss 0.680 F1 0.438
+Accuracy of the network on the 45 test samples: 60.0%
+log_dir: lin_probe\hca_sex\jepa-ep300\ft_log
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:50: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 0/14]  eta: 0:14:00  lr: 0.003016  loss: 0.6732 (0.6732)  time: 60.0326  data: 0.0040
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 1/14]  eta: 0:12:51  lr: 0.002807  loss: 0.6732 (0.6926)  time: 59.3480  data: 0.0020
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 2/14]  eta: 0:11:53  lr: 0.002605  loss: 0.6732 (0.6598)  time: 59.4343  data: 0.0044
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 3/14]  eta: 0:10:54  lr: 0.002410  loss: 0.6224 (0.6504)  time: 59.4974  data: 0.0033
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 4/14]  eta: 0:09:55  lr: 0.002222  loss: 0.6732 (0.6593)  time: 59.5796  data: 0.0026
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 5/14]  eta: 0:08:54  lr: 0.002042  loss: 0.6732 (0.6665)  time: 59.4096  data: 0.0045
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 6/14]  eta: 0:07:56  lr: 0.001870  loss: 0.6732 (0.6665)  time: 59.5429  data: 0.0039
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 7/14]  eta: 0:06:57  lr: 0.001705  loss: 0.6665 (0.6603)  time: 59.5968  data: 0.0034
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 8/14]  eta: 0:05:57  lr: 0.001547  loss: 0.6732 (0.6748)  time: 59.6562  data: 0.0038
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [ 9/14]  eta: 0:04:58  lr: 0.001397  loss: 0.6665 (0.6721)  time: 59.7271  data: 0.0034
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [10/14]  eta: 0:03:59  lr: 0.001255  loss: 0.6732 (0.6803)  time: 59.8593  data: 0.0045
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [11/14]  eta: 0:02:59  lr: 0.001120  loss: 0.6665 (0.6790)  time: 59.7380  data: 0.0042
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [12/14]  eta: 0:01:59  lr: 0.000992  loss: 0.6732 (0.6813)  time: 59.7004  data: 0.0038
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [16]  [13/14]  eta: 0:00:57  lr: 0.000873  loss: 0.6665 (0.6774)  time: 57.5197  data: 0.0041
+Epoch: [16] Total time: 0:13:25 (57.5197 s / it)
+Averaged stats: lr: 0.000873  loss: 0.6665 (0.6774)
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:58  loss: 0.7532 (0.7532)  acc1: 40.0000 (40.0000)  time: 59.7459  data: 0.0103
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:53  loss: 0.7359 (0.7168)  acc1: 50.0000 (48.8889)  time: 53.6259  data: 0.0062
+Test: Total time: 0:04:28 (53.6259 s / it)
+ For the evaluation of the model, the prediction are:  [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0]
+ For the evaluation of the model, the ground truth are:  [1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1
+ 1 0 0 1 0 1 1 0]
+* Acc@1 48.889 loss 0.717 F1 0.080
+Accuracy of the network on the 45 validation samples: 48.9%
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:53  loss: 0.6212 (0.6212)  acc1: 80.0000 (80.0000)  time: 58.7756  data: 0.0124
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:52  loss: 0.6847 (0.6799)  acc1: 60.0000 (60.0000)  time: 52.7028  data: 0.0025
+Test: Total time: 0:04:23 (52.7028 s / it)
+ For the evaluation of the model, the prediction are:  [0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 1 0 0 0 0
+ 0 1 0 1 0 1 0 1]
+ For the evaluation of the model, the ground truth are:  [0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1
+ 0 1 1 1 1 1 1 1]
+* Acc@1 60.000 loss 0.680 F1 0.438
+Accuracy of the network on the 45 test samples: 60.0%
+log_dir: lin_probe\hca_sex\jepa-ep300\ft_log
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:50: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 0/14]  eta: 0:13:43  lr: 0.000761  loss: 0.6731 (0.6731)  time: 58.8176  data: 0.0040
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 1/14]  eta: 0:12:43  lr: 0.000656  loss: 0.6731 (0.6925)  time: 58.7154  data: 0.0020
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 2/14]  eta: 0:11:52  lr: 0.000559  loss: 0.6731 (0.6597)  time: 59.3342  data: 0.0013
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 3/14]  eta: 0:10:49  lr: 0.000470  loss: 0.6222 (0.6503)  time: 59.0426  data: 0.0010
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 4/14]  eta: 0:09:50  lr: 0.000389  loss: 0.6731 (0.6592)  time: 59.0826  data: 0.0008
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 5/14]  eta: 0:08:50  lr: 0.000315  loss: 0.6731 (0.6664)  time: 58.9336  data: 0.0019
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 6/14]  eta: 0:07:53  lr: 0.000249  loss: 0.6731 (0.6664)  time: 59.1427  data: 0.0017
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 7/14]  eta: 0:06:55  lr: 0.000191  loss: 0.6665 (0.6602)  time: 59.3729  data: 0.0015
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 8/14]  eta: 0:05:56  lr: 0.000141  loss: 0.6731 (0.6747)  time: 59.3722  data: 0.0013
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [ 9/14]  eta: 0:04:56  lr: 0.000098  loss: 0.6665 (0.6720)  time: 59.2816  data: 0.0012
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [10/14]  eta: 0:03:57  lr: 0.000063  loss: 0.6731 (0.6802)  time: 59.2875  data: 0.0011
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [11/14]  eta: 0:02:57  lr: 0.000036  loss: 0.6665 (0.6789)  time: 59.1937  data: 0.0017
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [12/14]  eta: 0:01:58  lr: 0.000017  loss: 0.6731 (0.6812)  time: 59.3683  data: 0.0027
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Epoch: [17]  [13/14]  eta: 0:00:57  lr: 0.000005  loss: 0.6665 (0.6774)  time: 57.1677  data: 0.0025
+Epoch: [17] Total time: 0:13:20 (57.1681 s / it)
+Averaged stats: lr: 0.000005  loss: 0.6665 (0.6774)
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:55  loss: 0.7532 (0.7532)  acc1: 40.0000 (40.0000)  time: 59.0579  data: 0.0041
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:52  loss: 0.7358 (0.7167)  acc1: 50.0000 (48.8889)  time: 52.7324  data: 0.0008
+Test: Total time: 0:04:23 (52.7324 s / it)
+ For the evaluation of the model, the prediction are:  [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0]
+ For the evaluation of the model, the ground truth are:  [1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1
+ 1 0 0 1 0 1 1 0]
+* Acc@1 48.889 loss 0.717 F1 0.080
+Accuracy of the network on the 45 validation samples: 48.9%
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\downstream_tasks\engine_finetune.py:132: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  context_autocast = torch.cuda.amp.autocast()
+C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\brainenv\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [0/5]  eta: 0:04:56  loss: 0.6213 (0.6213)  acc1: 80.0000 (80.0000)  time: 59.3032  data: 0.0000
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+ in vision transf the size of gard pos emb is  torch.Size([1, 450, 30])
+Test:  [4/5]  eta: 0:00:52  loss: 0.6846 (0.6799)  acc1: 60.0000 (60.0000)  time: 52.7718  data: 0.0049
+Test: Total time: 0:04:23 (52.7718 s / it)
+ For the evaluation of the model, the prediction are:  [0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 1 0 0 0 0
+ 0 1 0 1 0 1 0 1]
+ For the evaluation of the model, the ground truth are:  [0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 1
+ 0 1 1 1 1 1 1 1]
+* Acc@1 60.000 loss 0.680 F1 0.438
+Accuracy of the network on the 45 test samples: 60.0%
+Training time 6:39:28
