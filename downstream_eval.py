@@ -17,7 +17,7 @@ def get_args_parser():
     parser = argparse.ArgumentParser('Brain-JEPA downstream tasks', add_help=False)
     
 
-    parser.add_argument('--config',default="E:\\recherche\\brain\\brain-jepa\Brain-JEPA-final\Brain-JEPA-main\configs\downstream\\fine_tune.yaml ", #default='configs.yaml', type=str, #configs/downstream/fine_tune.yaml
+    parser.add_argument('--config',default="C:\\Users\\Iyed-DAMMAK\\Desktop\\brain_jepa\\configs\\downstream\\fine_tune.yaml ", #default='configs.yaml', type=str, #configs/downstream/fine_tune.yaml
                         help='yaml file')
     parser.add_argument('--downstream_task', default='lin_probe', type=str,
                         help='fine_tune or linprobe')
@@ -33,15 +33,16 @@ def get_args_parser():
     parser.add_argument('--eval', action='store_true', help='number of the classification types')
     
 
-    parser.add_argument('--batch_size', default=20, type=int,
+    parser.add_argument('--batch_size', default=10, type=int,
                         help='Batch size per GPU (effective batch size is batch_size * accum_iter * # gpus')
-    parser.add_argument('--epochs', default=2, type=int)
+    parser.add_argument('--epochs', default=18, type=int)
     parser.add_argument('--blr', default=0.01, type=float)
+    
     parser.add_argument('--min_lr', default=0.000001, type=float)
     parser.add_argument('--smoothing', default=0.0, type=float)
     parser.add_argument('--num_seed', default=5, type=int)
     
-    parser.add_argument('--load_path', default='downstream_tasks\\jepa-ep300.pth.tar', type=str,
+    parser.add_argument('--load_path', default='downstream_tasks/jepa-ep300.pth.tar', type=str,#
                         help='where to load checkpoint')
     parser.add_argument('--model_name', default='vit_base', type=str, metavar='MODEL', #vit_base_patch16， vit_large_patch16
                         help='Name of model to train')
@@ -61,7 +62,7 @@ def get_args_parser():
     parser.add_argument('--gradient_checkpointing',action='store_true',
                         help='gradient_checkpointing')
     #arguments added manually 
-    parser.add_argument('--lr', default=None, type=float, help='Learning rate')
+    parser.add_argument('--lr', default=0.1, type=float, help='Learning rate')
     parser.add_argument('--weight_decay', default=0.05, type=float, help='Weight decay value')
 
     
@@ -127,6 +128,7 @@ if __name__ == '__main__':
             ft_main(args)
         else:
             print("i am in lineprob")
+            
             lp_main(args)
 
     else:
@@ -153,7 +155,8 @@ if __name__ == '__main__':
 
             ft_main(args)
         else:
-            print( 'i am in lineproooob')
+            print( 'i am in lineproooob with checkpoint') 
+            
             lp_main(args)
 
                     

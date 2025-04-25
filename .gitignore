@@ -1,3 +1,16 @@
 myenv/
 checkpoint.pth
 jepa-ep300.pth.tar
+checkpoint_justtoviz.pth
+jepa-ep300.pth.tar
+brainenv/
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth/
+data/processed/hca_lifespan/hca450_test_x.pt
+data/processed/hca_lifespan/hca450_test_y.pt
+data/processed/hca_lifespan/hca450_train_x.pt
+data/processed/hca_lifespan/hca450_train_y.pt
+data/processed/hca_lifespan/hca450_valid_x.pt
+data/processed/hca_lifespan/hca450_valid_y.pt
+data/*
+preprocessing/

@@ -2,7 +2,7 @@ global_pool: true
 
 resume: ''
 accum_iter: 1
-lr: null
+lr: 0.1
 
 drop_path: 0.1
 

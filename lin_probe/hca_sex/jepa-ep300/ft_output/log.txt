@@ -12,3 +12,81 @@ downstream_tasks\jepa-ep300.pth.tar
 downstream_tasks\jepa-ep300.pth.tar
 downstream_tasks\jepa-ep300.pth.tar
 downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+{"train_lr": 0.0002617732479483718, "train_loss": 0.713800466977633, "val_loss": 0.6906872193018595, "val_acc1": 50.0, "val_f1": 0.0, "test_loss": 0.7000611424446106, "test_acc1": 50.0, "test_f1": 0.0, "epoch": 0, "n_parameters": 1538}
+{"train_lr": 6.370752128239745e-05, "train_loss": 0.7137708984888517, "val_loss": 0.6905088822046915, "val_acc1": 50.0, "val_f1": 0.0, "test_loss": 0.6937611699104309, "test_acc1": 50.0, "test_f1": 0.0, "epoch": 1, "n_parameters": 1538}
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+{"train_lr": 0.00032931950050830175, "train_loss": 0.7124987721443177, "val_loss": 0.7037152051925659, "val_acc1": 50.0, "val_f1": 0.0, "test_loss": 0.7028342485427856, "test_acc1": 50.0, "test_f1": 0.0, "epoch": 0, "n_parameters": 1538}
+{"train_lr": 8.178674949169827e-05, "train_loss": 0.7124683797359467, "val_loss": 0.6967286169528961, "val_acc1": 50.0, "val_f1": 0.0, "test_loss": 0.6953173577785492, "test_acc1": 50.0, "test_f1": 0.0, "epoch": 1, "n_parameters": 1538}
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks\jepa-ep300.pth.tar
+{"train_lr": 0.000390625, "train_loss": 0.6965574026107788, "val_loss": 0.9390814304351807, "val_acc1": 0.0, "val_f1": 0.0, "test_loss": 0.9479897618293762, "test_acc1": 0.0, "test_f1": 0.0, "epoch": 0, "n_parameters": 1538}
+{"train_lr": 0.0001958125, "train_loss": 0.6963660717010498, "val_loss": 0.9240036010742188, "val_acc1": 0.0, "val_f1": 0.0, "test_loss": 0.9333007335662842, "test_acc1": 0.0, "test_f1": 0.0, "epoch": 1, "n_parameters": 1538}
+downstream_tasks\jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+{"train_lr": 0.000390625, "train_loss": 0.6965574026107788, "val_loss": 0.9390814304351807, "val_acc1": 0.0, "val_f1": 0.0, "test_loss": 0.9479897618293762, "test_acc1": 0.0, "test_f1": 0.0, "epoch": 0, "n_parameters": 1538}
+{"train_lr": 0.0001958125, "train_loss": 0.6963660717010498, "val_loss": 0.9240036010742188, "val_acc1": 0.0, "val_f1": 0.0, "test_loss": 0.9333007335662842, "test_acc1": 0.0, "test_f1": 0.0, "epoch": 1, "n_parameters": 1538}
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+{"train_lr": 0.000390625, "train_loss": 0.6965574026107788, "val_loss": 0.9390814304351807, "val_acc1": 0.0, "val_f1": 0.0, "test_loss": 0.9479897618293762, "test_acc1": 0.0, "test_f1": 0.0, "epoch": 0, "n_parameters": 1538}
+{"train_lr": 0.0001958125, "train_loss": 0.6963660717010498, "val_loss": 0.9240036010742188, "val_acc1": 0.0, "val_f1": 0.0, "test_loss": 0.9333007335662842, "test_acc1": 0.0, "test_f1": 0.0, "epoch": 1, "n_parameters": 1538}
+downstream_tasks/jepa-ep300.pth.tar
+{"train_lr": 0.000390625, "train_loss": 0.6965574026107788, "val_loss": 0.9390814304351807, "val_acc1": 0.0, "val_f1": 0.0, "test_loss": 0.9479897618293762, "test_acc1": 0.0, "test_f1": 0.0, "epoch": 0, "n_parameters": 1538}
+{"train_lr": 0.0001958125, "train_loss": 0.6963660717010498, "val_loss": 0.9240036010742188, "val_acc1": 0.0, "val_f1": 0.0, "test_loss": 0.9333007335662842, "test_acc1": 0.0, "test_f1": 0.0, "epoch": 1, "n_parameters": 1538}
+downstream_tasks/jepa-ep300.pth.tar
+{"train_lr": 0.0003382935216952632, "train_loss": 0.7578854918479919, "val_loss": 0.7138669192790985, "val_acc1": 50.0, "val_f1": 0.0, "test_loss": 0.71319779753685, "test_acc1": 50.0, "test_f1": 0.0, "epoch": 0, "n_parameters": 1538}
+{"train_lr": 9.229397830473683e-05, "train_loss": 0.7578595042228699, "val_loss": 0.7078880965709686, "val_acc1": 50.0, "val_f1": 0.0, "test_loss": 0.7066909074783325, "test_acc1": 50.0, "test_f1": 0.0, "epoch": 1, "n_parameters": 1538}
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+downstream_tasks/jepa-ep300.pth.tar
+{"train_lr": 0.08358346728366572, "train_loss": 0.7179714824472155, "val_loss": 0.7551048636436463, "val_acc1": 48.888888888888886, "val_f1": 0.0, "test_loss": 0.7308348774909973, "test_acc1": 55.55555555555556, "test_f1": 0.0, "epoch": 0, "n_parameters": 1538}
+downstream_tasks/jepa-ep300.pth.tar
+{"train_lr": 0.09977302549448308, "train_loss": 0.7185736298561096, "val_loss": 0.7613563179969788, "val_acc1": 48.888888888888886, "val_f1": 0.0, "test_loss": 0.7363740801811218, "test_acc1": 55.55555555555556, "test_f1": 0.0, "epoch": 0, "n_parameters": 1538}
+{"train_lr": 0.09831496997582254, "train_loss": 0.7122582239764077, "val_loss": 0.7300562381744384, "val_acc1": 48.888888888888886, "val_f1": 0.0, "test_loss": 0.7016885042190552, "test_acc1": 57.77777777777778, "test_f1": 0.09523809523809523, "epoch": 1, "n_parameters": 1538}
+{"train_lr": 0.09538890373524804, "train_loss": 0.7063605529921395, "val_loss": 0.7426781535148621, "val_acc1": 46.666666666666664, "val_f1": 0.0, "test_loss": 0.7007307171821594, "test_acc1": 57.77777777777778, "test_f1": 0.09523809523809523, "epoch": 2, "n_parameters": 1538}
+{"train_lr": 0.09108373381481856, "train_loss": 0.7010895780154637, "val_loss": 0.7434716820716858, "val_acc1": 44.44444444444444, "val_f1": 0.07407407407407407, "test_loss": 0.6905659079551697, "test_acc1": 57.77777777777778, "test_f1": 0.24, "epoch": 3, "n_parameters": 1538}
+{"train_lr": 0.0855302706240452, "train_loss": 0.6967434883117676, "val_loss": 0.744936716556549, "val_acc1": 46.666666666666664, "val_f1": 0.07692307692307693, "test_loss": 0.6858502984046936, "test_acc1": 60.0, "test_f1": 0.35714285714285715, "epoch": 4, "n_parameters": 1538}
+{"train_lr": 0.07889725333179168, "train_loss": 0.6928986481257847, "val_loss": 0.7402619123458862, "val_acc1": 46.666666666666664, "val_f1": 0.07692307692307693, "test_loss": 0.6827057719230651, "test_acc1": 62.22222222222222, "test_f1": 0.41379310344827586, "epoch": 5, "n_parameters": 1538}
+{"train_lr": 0.0713862228120144, "train_loss": 0.6897421308926174, "val_loss": 0.7353833556175232, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6815211415290833, "test_acc1": 62.22222222222222, "test_f1": 0.41379310344827586, "epoch": 6, "n_parameters": 1538}
+{"train_lr": 0.06322539792629196, "train_loss": 0.6870248786040715, "val_loss": 0.7311334371566772, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6810051798820496, "test_acc1": 64.44444444444444, "test_f1": 0.4666666666666667, "epoch": 7, "n_parameters": 1538}
+{"train_lr": 0.054662741209200394, "train_loss": 0.6847761613982064, "val_loss": 0.7274281144142151, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6806458353996276, "test_acc1": 66.66666666666667, "test_f1": 0.4827586206896552, "epoch": 8, "n_parameters": 1538}
+{"train_lr": 0.045958424652175166, "train_loss": 0.6829048097133636, "val_loss": 0.7245019555091858, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.680455493927002, "test_acc1": 66.66666666666667, "test_f1": 0.4827586206896552, "epoch": 9, "n_parameters": 1538}
+{"train_lr": 0.037376924509204774, "train_loss": 0.681374728679657, "val_loss": 0.7221564888954163, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6803189516067505, "test_acc1": 66.66666666666667, "test_f1": 0.4827586206896552, "epoch": 10, "n_parameters": 1538}
+{"train_lr": 0.029178985319684766, "train_loss": 0.6801490868840899, "val_loss": 0.7203266978263855, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6802122831344605, "test_acc1": 64.44444444444444, "test_f1": 0.4666666666666667, "epoch": 11, "n_parameters": 1538}
+{"train_lr": 0.02161369731753134, "train_loss": 0.6791925813470568, "val_loss": 0.7189610481262207, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6801280856132508, "test_acc1": 60.0, "test_f1": 0.4375, "epoch": 12, "n_parameters": 1538}
+{"train_lr": 0.01491092795046946, "train_loss": 0.6784742730004447, "val_loss": 0.7179906606674195, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6800573706626892, "test_acc1": 60.0, "test_f1": 0.4375, "epoch": 13, "n_parameters": 1538}
+{"train_lr": 0.00927433747395237, "train_loss": 0.6779637719903674, "val_loss": 0.717348837852478, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6799967527389527, "test_acc1": 60.0, "test_f1": 0.4375, "epoch": 14, "n_parameters": 1538}
+{"train_lr": 0.004875190837356615, "train_loss": 0.677629862512861, "val_loss": 0.7169715404510498, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6799474596977234, "test_acc1": 60.0, "test_f1": 0.4375, "epoch": 15, "n_parameters": 1538}
+{"train_lr": 0.0018471538851595622, "train_loss": 0.6774398173604693, "val_loss": 0.716792619228363, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6799132585525512, "test_acc1": 60.0, "test_f1": 0.4375, "epoch": 16, "n_parameters": 1538}
+{"train_lr": 0.0002822319878930829, "train_loss": 0.6773589125701359, "val_loss": 0.7167442321777344, "val_acc1": 48.888888888888886, "val_f1": 0.08, "test_loss": 0.6798988461494446, "test_acc1": 60.0, "test_f1": 0.4375, "epoch": 17, "n_parameters": 1538}

@@ -1,11 +1,11 @@
 data:
-  batch_size: 16
+  batch_size: 10
   crop_size: 
     - 450
     - 160
   num_workers: 8
   pin_mem: true
-  gradient_csv_path: 'E:\recherche\brain\brain-jepa\Brain-JEPA-final\Brain-JEPA-main\data\gradient_mapping_450.csv'
+  gradient_csv_path: 'C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\data\gradient_mapping_450.csv'
   add_w: 'origin'
   attn_mode: 'normal'
 logging:

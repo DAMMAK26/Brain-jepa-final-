@@ -5,7 +5,7 @@
 # --------------------------------------------------------
 
 import sys
-sys.path.append('E:/recherche/brain/brain-jepa/Brain-JEPA-final/Brain-JEPA-main')
+sys.path.append('C:Users/Iyed-DAMMAK/Desktop/brain_jepa')
 import datetime
 import json
 import numpy as np
@@ -99,28 +99,59 @@ def main(args):
             f.write(args.finetune + "\n")
         checkpoint = torch.load(args.finetune, map_location='cpu')
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
         print("Load pre-trained checkpoint from: %s" % args.finetune)
         checkpoint_model = checkpoint['target_encoder']
         state_dict = model.state_dict()
         
-        new_checkpoint_model = {}
-        for key in checkpoint_model.keys():
-            new_key = key.replace('module.', 'encoder.')  # Remove 'module.' from each key
-            new_checkpoint_model[new_key] = checkpoint_model[key]
+        
+          
+        # new proposal 
+        
+          # 1. Load checkpoint
+        checkpoint_model = checkpoint['target_encoder']
+        state_dict = model.state_dict()
 
-        for k in ['head.weight', 'head.bias']:
-            if k in new_checkpoint_model and new_checkpoint_model[k].shape != state_dict[k].shape:
-                print(f"Removing key {k} from pretrained checkpoint")
-                del new_checkpoint_model[k]
-        
-        # load pre-trained model
+        # 2. Rename and filter checkpoint keys
+        new_checkpoint_model = {}
+        for key in checkpoint_model:
+            new_key = key.replace('module.', 'encoder.')
+            #new_key= key 
+            if 'head' not in new_key and 'fc_norm' not in new_key and 'predictor' not in new_key:
+                new_checkpoint_model[new_key] = checkpoint_model[key]
+
+        # 3. Load only encoder weights
         msg = model.load_state_dict(new_checkpoint_model, strict=False)
+        print("Loaded pretrained encoder with:")
+        print("Missing keys:", msg.missing_keys)
+        print("Unexpected keys:", msg.unexpected_keys)
+        # Freeze all model parameters
+        for name, param in model.named_parameters():
+            param.requires_grad = False
+
+        # Unfreeze classification head and optionally fc_norm
+        for name, param in model.named_parameters():
+            if "head" in name or "fc_norm" in name or "encoder" in name:
+                print("Training:", name)
+                param.requires_grad = True
+
         
-        print(msg)
-        """if args.global_pool:
-            assert set(msg.missing_keys) == {'head.weight', 'head.bias', 'fc_norm.weight', 'fc_norm.bias'}
-        else:
-            assert set(msg.missing_keys) == {'head.weight', 'head.bias'}"""
+        #breakpoint()
+
+       
 
         # manually initialize fc layer: following MoCo v3
         trunc_normal_(model.head.weight, std=0.01)
@@ -172,8 +203,9 @@ def main(args):
     random_tensor = torch.randn(2, 1, 450,160)  # Taille adaptée à ton modèle
     
     # Passage avant (forward pass)
-    #output = model(random_tensor)
-    #print('the out put of the model is: {}'.format(output))
+    output = model(random_tensor)
+    print('the out put of the model is: {}'.format(output))
+    breakpoint()
     if args.eval:
         test_stats = evaluate(args, data_loader_val, model, device)
         print(f"Accuracy of the network on the {len(valid_dataset)} test images: {test_stats['acc1']:.1f}%")

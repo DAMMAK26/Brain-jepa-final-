@@ -2,7 +2,8 @@ import torch
 import os
 
 # 📁 Répertoire où sauvegarder les fichiers
-save_dir = r"E:\recherche\brain\brain-jepa\Brain-JEPA-final\Brain-JEPA-main\data\processed\hca_lifespan"
+
+save_dir = r"C:\Users\Iyed-DAMMAK\Desktop\brain_jepa\data\processed\hca_lifespan"
 os.makedirs(save_dir, exist_ok=True)
 
 # 🔢 Paramètres
@@ -11,7 +12,7 @@ N_valid = 20
 N_test = 20
 #T = 490        # longueur temporelle
 T=16*2*5
-ROIs = 450     # nombre de régions cérébrales
+ROIs = 400     # nombre de régions cérébrales
 
 def create_data(n_samples):
     x = torch.randn(n_samples, ROIs, T)      # données fMRI simulées
@@ -23,7 +24,7 @@ x_train, y_train = create_data(N_train)
 x_valid, y_valid = create_data(N_valid)
 x_test, y_test = create_data(N_test)
 
-# 💾 Sauvegarde
+# 💾 Sauvegardes
 torch.save(x_train, os.path.join(save_dir, 'hca450_train_x.pt'))
 torch.save(y_train, os.path.join(save_dir, 'hca450_train_y.pt'))
 torch.save(x_valid, os.path.join(save_dir, 'hca450_valid_x.pt'))

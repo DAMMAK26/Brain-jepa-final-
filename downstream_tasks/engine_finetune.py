@@ -29,7 +29,7 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
     metric_logger = misc.MetricLogger(delimiter="  ")
     metric_logger.add_meter('lr', misc.SmoothedValue(window_size=1, fmt='{value:.6f}'))
     header = 'Epoch: [{}]'.format(epoch)
-    print_freq = 20
+    print_freq = 1 # print every 1 iteration
 
     accum_iter = args.accum_iter
 
@@ -78,7 +78,7 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
         if (data_iter_step + 1) % accum_iter == 0:
             optimizer.zero_grad()
 
-        torch.cuda.synchronize()
+        #torch.cuda.synchronize()
 
         metric_logger.update(loss=loss_value)
         if args.task == 'regression':
@@ -180,10 +180,12 @@ def evaluate(args, data_loader, model, device, task):
         gt = np.concatenate(gt_all)
         predict_class = np.concatenate(predict_class_all, axis=0)
         predict = np.argmax(predict_class, axis=1)
+        print( " For the evaluation of the model, the prediction are: ", predict)
+        print( " For the evaluation of the model, the ground truth are: ", gt)
         
         f1 = f1_score(gt, predict)
-        metric_logger.update(f1=f1.item())
-        
+        #metric_logger.update(f1=f1.item())
+        metric_logger.update(f1=f1)
         print('* Acc@1 {top1.global_avg:.3f} loss {losses.global_avg:.3f} F1 {f1.global_avg:.3f}'
             .format(top1=metric_logger.acc1, losses=metric_logger.loss, f1=metric_logger.f1))
     else:
